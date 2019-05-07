@@ -1,5 +1,8 @@
 def consolidate_cart(cart)
-  
+  output = {}
+  cart.each {|item|
+    if output[item]
+  }
 end
 [
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
