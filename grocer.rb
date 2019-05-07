@@ -6,8 +6,8 @@ def consolidate_cart(cart)
     else
       output[item][count] += 1
     end
-    output
   }
+  output 
 end
 [
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
