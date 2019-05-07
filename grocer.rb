@@ -1,7 +1,12 @@
 def consolidate_cart(cart)
   output = {}
   cart.each {|item|
-    if output[item]
+    if output[item] == nil
+      output[item][count] = 0
+    else
+      output[item][count] += 1
+    end
+    output
   }
 end
 [
